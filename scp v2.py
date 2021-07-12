@@ -15,11 +15,10 @@ import re
 time_string = time.strftime("%m-%d-%Y", time.localtime())
 log_time = time.strftime("%m-%d-%Y_%H:%M:%S", time.localtime())
 
-# loc = "C:\\Users\\ERASMDH\\Google Drive\\python\\xshell\\"
 loc = os.getcwd() 
 details_log = os.getcwd() + "\details_log_" + log_time + ".log"
 command_log = ""
-password = "Bangladesh_adm@43#21"
+password = ""
 terminate = "\003"
 command_count = 0
 
